@@ -12,6 +12,7 @@ import { store } from '@store';
 import MultipleChoiceQuestion from './components/questions/MultipleChoiceQuestion'
 import { dummyData } from './utils/const'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>

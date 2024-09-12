@@ -4,7 +4,7 @@ export const dummyData = {
       {
         component_name: 'html',
         component_id: 'stmt_id_1',
-        file_name: ['<p>What is the capital of France?</p>'],
+        file_name: ['<p>Which of the following statements most accurately describes a key aspect of Solar Energy, as outlined in the passage, in terms of its functionality, applications, and overall benefits to both individuals and the environment?</p>'],
       },
     ],
   },
