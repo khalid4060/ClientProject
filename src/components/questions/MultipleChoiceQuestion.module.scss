@@ -1,9 +1,20 @@
 /* Style for options container */
 .mulitpleChoiceContainer {
-  padding: 0 3rem 3rem;
+  padding: 0 3rem 12rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-height: calc(100dvh - 110px);
+  overflow-y: auto;
+  
+  @media(max-width:767px){
+    max-height: inherit;
+    overflow-y: inherit;
+  }
+}
+
+.mulitpleChoiceContainer::-webkit-scrollbar {
+  width: 0px;
 }
 
 .subHeading{

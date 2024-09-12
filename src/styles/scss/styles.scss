@@ -16,6 +16,11 @@ body {
   background: #B2EAD2;
   height: 100%;
   position: relative;
+  height: calc(100dvh - 50px);
+
+  @media(max-width:767px){
+    height: auto;
+  }
 }
 
 button{
